@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบฟอร์มลงทะเบียนศิษย์เก่า IT + IS</title>
+</head>
+<body>
+    <h1>แบบฟอร์มลงทะเบียนศิษย์เก่า IT + IS</h1>
+    <form action="https://www.example.com" method="post">
+        <label for="fullname">ชื่อ-สกุล: </label>
+        <input type="text" name="fullname">
+        <br><br>
+
+        <label for="studentID">รหัสนักศึกษา: </label>
+        <input type="text" name="studentID">
+        <br><br>
+
+        <label for="gender">เพศ: </label>
+        <input type="radio" name="gender">ชาย
+        <input type="radio" name="gender">หญิง
+        <input type="radio" name="gender">อื่น ๆ
+        <br><br>
+
+        <label for="year">ปีการศึกษาเข้าศึกษา: </label>
+        <input type="number" name="year">
+        <br><br>
+
+        <label for="address">ที่อยู่: </label>
+        <textarea name="address"></textarea>
+        <br><br>
+
+        <label for="phone">เบอร์โทรติดต่อ: </label>
+        <input type="tel" name="phone">
+        <br><br>
+
+        <label for="program">ชื่อหลักสูตร: </label>
+        <select name="program">
+            <option value="it">IT</option>
+            <option value="is">IS</option>
+        </select>
+        <br><br>
+
+        <label for="job">อาชีพปัจจุบัน: </label>
+        <input type="text" name="job">
+        <br><br>
+
+        <label for="workplace">สถานที่ทำงาน (ระบุชื่อบริษัทและที่อยู่): </label>
+        <textarea name="workplace"></textarea>
+        <br><br>
+
+        <label for="worktype">ประเภทงานที่ทำ: </label>
+        <select name="worktype">
+            <option value="dev">Web Developer</option>
+            <option value="sa">SA</option>
+            <option value="graphic">Graphic Design</option>
+            <option value="maketing">Digital Marketing</option>
+        </select>
+        <br><br>
+
+        <label for="photo">อัปโหลดรูปถ่ายตนเอง 1 รูป: </label>
+        <input type="file" name="photo" accept="image/*">
+        <br><br>
+
+        <input type="submit" value="SUBMIT">
+    </form>
+    <br>
+    <a href="../index.html">Home</a>
+</body>
+</html>
